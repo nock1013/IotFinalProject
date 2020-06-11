@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "311217292060",
+    "firebase_url": "https://platooning-caa66.firebaseio.com",
+    "project_id": "platooning-caa66",
+    "storage_bucket": "platooning-caa66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311217292060:android:f3edfd598a9473ca1ff0d9",
+        "android_client_info": {
+          "package_name": "com.project.platooning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311217292060-mttcu4sukdvh21g06eav5d2f53rijhp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHl_jd9MlKHI0zXpzxKOtWGM1Kz1wfhBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311217292060-mttcu4sukdvh21g06eav5d2f53rijhp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

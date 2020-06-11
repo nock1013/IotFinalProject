@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="android.gunzip.carlist">
+  	<select id="selectcarlist" resultType="carlist" parameterType="carlist">
+  		select * from carlist
+  	</select>
+  	
+  	<update id="attachcarlist" parameterType="carlist">
+  		update carlist set status = #{status}, savedate = sysdate where carnum = #{carnum}
+  	</update>
+  	
+  	<update id="detachcarlist" parameterType="String">
+  		update carlist set status = '', savedate = sysdate where status = #{userid}
+  	</update>
+  	
+  	<select id="selectPlatooningCarList" resultType="carlist">
+  		select * from carlist where status in('0','1','2') or status is null
+  	</select>
+  	<select id="selectUsingCarList" resultType="carlist">
+  		select * from carlist where status is not null
+	</select>
+	
+	<select id="findYourCar" parameterType="carlist" resultType="carlist">
+		select * from carlist where status = #{status} and carnum = #{carnum}
+	</select>
+  	
+</mapper>

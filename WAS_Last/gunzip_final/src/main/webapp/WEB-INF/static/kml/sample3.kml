@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+	<name>Tmap Position Control Sample</name>
+	<Placemark>
+		<name>홍길동[1234]</name>
+		<number>12가 9876</number>
+		<affiliation>서인천IC부평IC</affiliation>
+		<Point>
+		
+			<coordinates>126.69362524082251,37.523539231665872</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.69588828580943,37.523564566820156</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.69815130109326,37.523591608369379</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.70041445870162,37.523608391151697</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.70494071291756,37.523648943223591</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.70785654927185,37.523668026814875</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.71011972204705,37.523684228650531</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.71238273662092,37.523711765908772</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.71464577022678,37.523738186271459</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.7169089526187,37.523755072046896</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.71917213680129,37.523771914461143</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>126.71994429678887,37.523777650882835</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+		</Point>
+	</Placemark>
+	
+</Document>
+</kml>

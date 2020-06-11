@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/platetextview"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/plate2" />
+
+        <TextView
+            android:id="@+id/carnum_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/gmarketmedium"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="100나7500"
+            android:textAlignment="center"
+            android:textColor="#6A6A6A"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/cancel_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right|top"
+            app:srcCompat="@drawable/ic_cancel" />
+
+    </FrameLayout>
+
+</LinearLayout>

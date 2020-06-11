@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+	<name>Tmap Position Control Sample</name>
+	<Placemark>
+		<name>홍길동[1234]</name>
+		<number>12가 9876</number>
+		<affiliation>판교</affiliation>
+		<Point>
+		
+			<coordinates>127.04275740594987,37.460633596876676</coordinates>
+			<distance>1.5</distance>
+			<speed>70</speed>
+			
+			<coordinates>127.04412400143637,37.459197277700852</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			
+			<coordinates>127.04554136681412,37.457707522743924</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			
+			<coordinates>127.04690032797895,37.456266709173164</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			<coordinates>127.0482318515363,37.454809651099652</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.04956332452771,37.453352578043379</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.05089474572472,37.451895489290614</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.05222611513192,37.450438384843721</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.05355132966309,37.448977733197566</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.05998175225577,37.440861760546078</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.06110592356522,37.439297711692667</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.06396220786375,37.436238710399749</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			
+			<coordinates>127.06538850003733,37.434840048234094</coordinates>
+			<distance>1.5</distance>
+			<speed>70</speed>
+			
+			
+			<coordinates>127.06680867968602,37.433447310611896</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			<coordinates>127.06823486574906,37.43204861277399</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+
+			<coordinates>127.06966099865032,37.430649897065855</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.07249492357214,37.427840755058952</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.07395151817168,37.426379483696699</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			<coordinates>127.07535810917501,37.424968304759737</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			
+			<coordinates>127.07676464728472,37.423557108424369</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+			
+			<coordinates>127.07817113250509,37.422145894693131</coordinates>
+			<distance>1.5</distance>
+			<speed>70</speed>
+			
+			<coordinates>127.0810700351288,37.419275400181668</coordinates>
+			<distance>1.5</distance>
+			<speed>70</speed>
+			
+			
+			<coordinates>127.08250185737597,37.417880539034989</coordinates>
+			<distance>5</distance>
+			<speed>100</speed>
+			
+			
+		
+			
+			
+		</Point>
+	</Placemark>
+	
+</Document>
+</kml>

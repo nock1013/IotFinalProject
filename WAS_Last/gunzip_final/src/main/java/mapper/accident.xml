@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="android.gunzip.accident">
+	<select id="yearData" resultType="yeardata">
+  		select substr(accidentdate,1,4) year, count(substr(accidentdate,1,4)) yearcnt from accidentlist group by substr(accidentdate,1,4) order by substr(accidentdate,1,4)
+  	</select>
+
+  	<select id="monthData" resultType="cntdata">
+  		select trim(substr(accidentdate,6,4)) data, count(trim(substr(accidentdate,6,4))) cnt from accidentlist group by trim(substr(accidentdate,6,4)) order by trim(substr(accidentdate,6,4))
+  	</select>
+
+  	<select id="dayData" resultType="daydata">
+  		select accidentday, count(accidentday) as cnt from accidentlist group by accidentday order by accidentday
+  	</select>
+  	
+  	<select id="timeData" resultType="cntdata">
+  		select substr(accidentdate,-4,3) data, count(substr(accidentdate,-4,3)) cnt from accidentlist group by substr(accidentdate,-4,3) order by substr(accidentdate,-4,3)
+  	</select>
+
+  	<select id="weatherData" resultType="weatherdata">
+  		select weather, count(weather) as cnt from accidentlist group by weather order by weather
+  	</select>
+  	
+  	<select id="ageData" resultType="cntdata">
+  		select substr(age,0,1) data, count(substr(age,0,1)) cnt from accidentlist group by substr(age,0,1) order by substr(age,0,1)
+  	</select>
+  	
+</mapper>

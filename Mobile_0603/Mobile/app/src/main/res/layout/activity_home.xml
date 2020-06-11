@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    tools:context=".home.HomeActivity">
+
+    <!--
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            &lt;!&ndash;app:menu="@menu/logout">&ndash;&gt;
+        </androidx.appcompat.widget.Toolbar>
+    -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/colorCardBackground"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/spinner_background"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:theme="@style/SpinnerTheme" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#BFBFBF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#46F3F3F3"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/powerbtn"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="30dp"
+                    android:background="#00000000"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_power" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#BFBFBF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/doorbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nullimg"
+                    android:button="@drawable/car_door_btn"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:padding="10dp"
+                    android:scaleType="centerInside" />
+
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#BFBFBF" />
+
+                <CheckBox
+                    android:id="@+id/lightbtn"
+                    android:layout_width="80dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:button="@drawable/light_btn"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#BFBFBF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/leftbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/yanjin"
+                    android:gravity="center_horizontal"
+                    android:text="\u003C"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBase"
+                    android:textSize="50dp" />
+
+                <TextView
+                    android:id="@+id/temperatureView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|end"
+                    android:text="20"
+                    android:textColor="@color/colorBase"
+                    android:textAlignment="viewEnd"
+                    android:textSize="70dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="25dp"
+                    android:text="ºC"
+                    android:textColor="@color/colorBase"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/rightbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/yanjin"
+                    android:gravity="center_horizontal"
+                    android:text=">"
+                    android:textColor="@color/colorBase"
+                    android:textAlignment="center"
+                    android:textSize="50dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
